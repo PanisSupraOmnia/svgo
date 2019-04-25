@@ -9,8 +9,8 @@ node_js:
 
 cache: npm
 
-branches:
-  only:
-    - master
+# branches:
+#   only:
+#     - master
 
 script: make travis
