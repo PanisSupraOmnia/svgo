@@ -4,12 +4,13 @@ node_js:
   - 4
   - 6
   - 8
+  - 10
+  - 12
+
+cache: npm
 
 branches:
   only:
     - master
-
-before_install:
-  - npm install -g jshint
 
 script: make travis
